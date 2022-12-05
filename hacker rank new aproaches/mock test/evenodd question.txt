@@ -1,0 +1,31 @@
+even odd question of mock test
+
+You are given a positive integer N.
+Consider the following algorithm:
+
+If N is even, N = N/2 (rounded down to nearest integer i.e 5/2=2 7/2= 3)
+If N is odd , N = 3N+1 (3 times N plus 1)
+The algorithm never stops until N becomes 1.
+Find out in how many steps, N reduces down to 1.
+
+For example:
+if N=3
+3 → 10 → 5 → 16 → 8 → 4 → 2 → 1
+N reduces down to 1 in 7 steps
+
+Input Format
+
+The first input line has an integer N.
+Constraints
+
+1<= N <= 106
+Output Format
+
+Print one integer, number of steps
+
+Sample Input 0
+
+3
+Sample Output 0
+
+7

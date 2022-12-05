@@ -1,0 +1,37 @@
+xor question in mocktest
+You are given an array A of size n i.e A1 , A2 , A3 ... An. You are also given Q queries.
+For each query , You are given 2 integers L , R (1<=L<=R<=n).
+Find the xor sum of all values in range [ L , R ].
+In other words, find A[L] ^ A[L+1] ^ A[L+2] ^ ... A[R] for each query.
+
+where '^' stands for XOR (a ^ b = a xor b)
+To know more about XOR BITWISE OPERATOR,refer: XOR
+
+Input Format
+
+The first input line has two integers n (size of the array) and Q (number of queries).
+The second line has n integers A1 , A2 , A2 ... An the array values.
+Finally, there are Q lines describing the queries. Each line has two integers L and R.
+Constraints
+
+1 <= n , q <= 2 x 105
+1 <= Ai <= 109
+1 <= L,R <= n
+Output Format
+
+Print q integers, one integer per line
+
+Sample Input 0
+
+8 4
+3 2 4 5 1 1 5 3
+2 4
+5 6
+1 8
+3 3
+Sample Output 0
+
+3
+0
+6
+4
