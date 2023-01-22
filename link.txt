@@ -1,0 +1,2 @@
+https://www.geeksforgeeks.org/building-heap-from-array/
+https://blog.bitsrc.io/implementing-heaps-in-javascript-c3fbf1cb2e65
